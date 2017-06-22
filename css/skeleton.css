@@ -115,7 +115,7 @@
 /* Import Cornerstone Font */
 @font-face {
   font-family: "Cornerstone";
-  src: url("_assets/fonts/Cornerstone.ttf") format("truetype");
+  src: url("../_assets/fonts/Cornerstone.ttf") format("truetype");
 }
 
 /* Base Styles
