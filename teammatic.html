@@ -63,6 +63,7 @@
       <h5 style="padding-bottom: 24px;"><strong>tl&semi;dr&colon;</strong> I was in charge of designing a team formation UI tool for instructors called Teammatic. It features a clear, intuitive system for efficiently creating teams given a series of customizable constraints, i.e. availability, leadership, gender distribution. </h5>
     </div>
 
+    <!-- Problem Section -->
     <div class="section-div">
       <h3 class="section-header">The Problem</h3>
       <p class="text">Creating good teams is hard. We found this especially so in the education system; as an instructor, the goal is to formulate efficient teams as soon as possible in order to progress through the material in a timely manner. Our initial findings found that instructors either 1) spent too much time trying to initially assess their students’ skills &amp; qualities before organizing teams, or 2) randomly (or with little assessment) assigned teams that had varying levels of success.</p>
@@ -70,20 +71,53 @@
       <h5 style="padding-bottom: 24px; opacity: 0.75">We set out to create a tool that would make forming teams more effective and easy for instructors.</h5>
     </div>
 
+    <!-- Process Section -->
     <div class="section-div">
       <h3 class="section-header">Our Process</h3>
       <p class="text">Initial research went into trying to find existing tools that tried solving the problem of team formation. We found CATME (Comprehensive Assessment of Team Member Effectiveness) to be the only existing solution, which uses their Team-Maker tool to collect student information, and utilizes the data to assign teams according to a criteria specified by the instructor. However, user feedback has shown varying success within classrooms. Case study here.<br><br>Based on this and additional user interviews, our team established three design principles that would help guide our design decision throughout this process.</p>
       <br>
       <h5 style="padding-bottom: 16px; opacity: 0.75">We wanted to build a tool that would:
         <ul>
-          <li>Help instructors <strong>quickly form teams</strong></li>
-          <li><strong>Provide instructors with insightful feedback</strong> on team compatibility</li>
-          <li><strong>Be simple and easy</strong> for instructors to use</li>
+          <li>help instructors <strong>quickly form teams</strong></li>
+          <li><strong>provide instructors with insightful feedback</strong> on team compatibility</li>
+          <li><strong>be simple and easy</strong> for instructors to use</li>
         </ul>
       </h5>
       <p class="text">The first thing we wanted to tackle was how instructors would actually form teams; we would focus on the onboarding process after. After a few paper-and-pen sketching sessions, we came up with a few ideas and drew them up as wireframes.</p>
 
+      <br><h3>image goes here</h3><br>
 
+      <p class="text">Quickly ideating and prototyping became key here. We wanted to find a balance between providing instructors with enough student information to make informed decisions while also having a large enough workspace to create/edit teams. Further data gathering helped us scrap the Student Quickview component in our initial 3-column design to  a final 2-column design that featured both a larger workspace and filtered Student Roster component (see image below).</p>
+
+      <br><h3>image goes here</h3><br>
+
+      <h5 style="padding-bottom: 16px; opacity: 0.75">The switch helped us address these issues:
+        <ul>
+          <li><strong>quickly form teams</strong> - indicate team size, input needed constraints, and voila&colon; Teammatic does the work</li>
+          <li><strong>provide instructors with insightful feedback</strong> - team compatibility &#37; present; action history to track most recent action</li>
+          <li><strong>be simple and easy</strong> - no confusing, unintuitive buttons or icons&semi; clear, even spacing between text and components</li>
+        </ul>
+      </h5>
+    </div>
+
+    <!-- Solution Section -->
+    <div class="section-div">
+      <h3 class="section-header">Our Solution</h3>
+      <p class="text">Teammatic handles student availability, leadership attribute, gender, role distribution, and student preferences for possible teammates. Once the data is received, instructors will have the ability to choose constraints of how they want to create teams. The algorithm used for the team suggestions will account for these various constraints. After a suggested group of teams have been formed,  the instructor will have the ability to modify these teams to their liking.</p>
+
+      <br><h3>image goes here</h3><br>
+
+      <p class="text">Quickly ideating and prototyping became key here. We wanted to find a balance between providing instructors with enough student information to make informed decisions while also having a large enough workspace to create/edit teams. Further data gathering helped us scrap the Student Quickview component in our initial 3-column design to  a final 2-column design that featured both a larger workspace and filtered Student Roster component (see image below).</p>
+
+      <br><h3>image goes here</h3><br>
+
+      <h5 style="padding-bottom: 16px; opacity: 0.75">The switch helped us address these issues:
+        <ul>
+          <li><strong>quickly form teams</strong> - indicate team size, input needed constraints, and voila&colon; Teammatic does the work</li>
+          <li><strong>provide instructors with insightful feedback</strong> - team compatibility &#37; present; action history to track most recent action</li>
+          <li><strong>be simple and easy</strong> - no confusing, unintuitive buttons or icons&semi; clear, even spacing between text and components</li>
+        </ul>
+      </h5>
     </div>
 
     <!-- Contact Section -->
@@ -109,7 +143,7 @@
             B&#275;hance
           </a>
           &middot;
-          <a href="#" class="contact-a">
+          <a href="https://www.linkedin.com/in/alex-tran-441540a0/" class="contact-a">
             Linkedin
           </a>
         </h3>
