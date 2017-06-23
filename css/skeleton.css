@@ -476,11 +476,26 @@ a > #project-title:hover {
 }
 
 .landing-img {
-  padding-top: 24px;
-  padding-bottom: 48px;
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+
+.inline-img {
+  padding: 16px;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.2);
 }
 
 .section-header {
   font-weight: 700;
   color: #5E1AFF;
+}
+
+.img-caption {
+  opacity: 0.8;
+  padding-left: 16px;
+  padding-right: 16px;
 }
