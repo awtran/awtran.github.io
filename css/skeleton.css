@@ -464,6 +464,12 @@ there.
   text-transform: lowercase;
   letter-spacing: 5px;
 }
+@media (max-width: 400px) {
+  #project-title {
+    font-size: 4rem;
+    letter-spacing: 2px;
+  }
+}
 
 #project-title-secondary {
   font-size: 5.6rem;
