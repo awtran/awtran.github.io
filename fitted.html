@@ -89,96 +89,61 @@
           <img class="landing-img inline-img u-max-full-width" src="images/fitted-ia.png">
         </div>
       </div>
-      <p class="text">The first thing we wanted to tackle was how instructors would actually form teams; we would focus on the onboarding process after. After a few paper-and-pen sketching sessions, we came up with a few ideas and drew them up as wireframes.</p>
 
-      <div class="row">
-        <div class="six columns">
-          <img class="landing-img inline-img u-max-full-width" src="images/teamme-sketches.jpeg">
-          <!-- <h6 class="img-caption" style="text-align: center">average amount of time taken to form teams</h6> -->
-        </div>
-        <div class="six columns">
-          <img class="landing-img inline-img u-max-full-width" src="images/teamme-balsamiq.png">
-          <!-- <h6 class="img-caption" style="text-align: center">overall team compatibility score average</h6> -->
-        </div>
-      </div>
-
-      <p class="text">Quickly ideating and prototyping became key here. We wanted to find a balance between providing instructors with enough student information to make informed decisions while also having a large enough workspace to create/edit teams. Further data gathering helped us scrap the Student Quickview component in our initial 3-column design to  a final 2-column design that featured both a larger workspace and filtered Student Roster component (see image below).</p>
-
-      <div class="row">
-        <div class="twelve columns">
-          <img class="landing-img inline-img u-max-full-width" src="images/columnDesigns.png">
-        </div>
-      </div>
-
-      <h5 style="padding-bottom: 16px; opacity: 0.75">The switch helped us address these issues:
-        <ul>
-          <li><strong>quickly form teams</strong> - indicate team size, input needed constraints, and voila&colon; Teammatic does the work</li>
-          <li><strong>provide instructors with insightful feedback</strong> - team compatibility &#37; present; action history to track most recent action</li>
-          <li><strong>be simple and easy</strong> - no confusing, unintuitive buttons or icons&semi; clear, even spacing between text and components</li>
-        </ul>
-      </h5>
+      <h6 class="img-caption">
+        <ol>
+          <li><strong>Homepage</strong>&colon; Browse products based on either brand recommendations by the app or explore current fashion trends. Promotes discoverability and aimed to maintain user attention.</li>
+          <li><strong>Liked Products</strong>&colon; The Liked Products section allows users to look back at items they were interested in, but perhaps did not intend to purchase at the moment they discovered it.</li>
+          <li><strong>Search</strong>&colon; Specific browsing for items based on brand or design type (shirts, pants, etc.). Includes navigation into Product View, which provides users with information on the selected item such as personalized fitting style and user reviews.</li>
+          <li><strong>Shopping Cart</strong>&colon; As with any app that provides an e-commerce experience, a shopping cart is available for users to keep track of to-be purchased items. IA follows that of a standard online-shopping format.</li>
+          <li><strong>Profile</strong>&colon; Body preference settings are found here. Users can edit these preferences based on their needs and the app will respond accordingly, i.e. automatically filter results to be within user sizing parameters.</li>
+        </ol>
+      </h6>
     </div>
 
+    <br>
     <hr style="border: 0; height: 0; border-top: 1px solid rgba(0, 0, 0, 0.1); border-bottom: 1px solid rgba(255, 255, 255, 0.3);">
 
     <!-- Solution Section -->
     <div class="section-div" style="padding-top: 36px">
-      <h3 class="section-header">Our Solution</h3>
-      <h5><strong>Design Details</strong></h5>
-      <p class="text">Teammatic handles student availability, leadership attribute, gender, role distribution, and student preferences for possible teammates. Once the data is received, instructors will have the ability to choose constraints of how they want to create teams. The algorithm used for the team suggestions will account for these various constraints. After a suggested group of teams have been formed, the instructor will have the ability to modify these teams to their liking.</p>
+      <h3 class="section-header">Design Details</h3>
+      <h5><strong>Sizing Recommendations</strong></h5>
+      <p class="text">Fitted provides personalized recommendations across all products. For each product view, the user gets an indication of how well the item is going to fit on their body (based on the preferences they provide).</p>
 
       <div class="row">
         <div class="twelve columns">
-          <img class="landing-img inline-img u-max-full-width" src="images/studentRosterProgression.png">
+          <img class="landing-img u-max-full-width" style="padding-left: 64px; padding-right: 64px" src="images/fitted-productDetails.png">
         </div>
       </div>
 
-      <h6 class="img-caption"><strong>Student Roster (v0.3), (v0.7), (v1.0).</strong><br>This is one of the UI components that was prototyped the most. We really tried to find a balance between information visibility and screen real-estate. Including a filter makes it easier for instructors to view the information they need at any given time.</h6>
+      <p class="text">Each item the user views will have a percentage that informs them of how accurate the fit will be based on their size. The option can be changed, giving users freedom and flexibility to choose how well the item should fit them. Reviews also further inform users because we understand the importance of having constant feedback from real-world experiences.</p>
 
       <div class="row">
         <div class="twelve columns">
-          <img class="landing-img inline-img u-max-full-width" src="images/studentSwapProcess.png">
+          <img class="landing-img u-max-full-width" style="padding-left: 48px; padding-right: 48px" src="images/fitted-flowProgression.png">
         </div>
       </div>
 
-      <h6 class="img-caption"><strong>Student Swap Process (v1.0).</strong><br>We really wanted to give instructors the ability to swap students between teams, both manually and with suggestions (highlighted in green) from the interface. Doing so promotes the idea of a mixed-initiative interface: instructors can work within the given UI, but also have the flexibility to make changes where desired.</h6>
+      <p class="text">This is the bread and butter of Fitted. Users have the freedom to adjust their body profile based on their own preferences. Whether users want an overall tighter fit in the clothes they buy, or only in the torso length, they have the ability to indicate that and Fitted will filter and tailor their results accordingly.</p>
 
       <div class="row">
-        <div class="twelve columns">
-          <img class="landing-img inline-img u-max-full-width" src="images/constraintModalProgression.png">
+        <div class="seven columns">
+          <img class="landing-img u-max-full-width" src="images/fitted-bodyPref.png">
+        </div>
+        <div class="one column"></div>
+        <div class="four columns">
+          <img class="landing-img u-max-full-width" src="images/fitted-editProf.gif">
         </div>
       </div>
-
-      <h6 class="img-caption"><strong>Constraint Modal (v0.3), (v0.6), (v1.0).</strong><br>Apart from the minor UI changes, our research showed that instructors wanted to see all available constraints possible and choose accordingly with the least amount of interaction cost. Don’t mind the varying modal sizes…</h6>
-      <br>
-    </div>
 
     <hr style="border: 0; height: 0; border-top: 1px solid rgba(0, 0, 0, 0.1); border-bottom: 1px solid rgba(255, 255, 255, 0.3);">
 
-    <!-- Outcomes Section -->
+    <!-- Next Steps Section -->
     <div class="section-div" style="padding-top: 36px">
-      <h3 class="section-header">Outcomes</h3>
-      <p class="text">We conducted a study with 14 teaching assistants from various group-based courses, asking them to create teams with a set of constraint requirements, i.e. 4 students per team, one student per team, gender balance. As you can see from the results below, Teammatic outperformed our participants in both time and overall teammate compatibility.</p>
+      <h3 class="section-header">Next Steps</h3>
+      <p class="text">There’s a lot I would like to do with future features. My ideal next steps would be&colon; <strong>personalized styling recommendations</strong> (shoutout to Amazon Echo) and <strong>C2C marketplace capability</strong> for renting and selling unused clothing. Providing these features will allow for a better in-app experience, and I hope the data we collect will help validate these decisions.</p>
 
-      <div class="row">
-        <div class="six columns">
-          <img class="landing-img inline-img u-max-full-width" src="images/overallTime.png">
-          <!-- <h6 class="img-caption" style="text-align: center">average amount of time taken to form teams</h6> -->
-        </div>
-        <div class="six columns">
-          <img class="landing-img inline-img u-max-full-width" src="images/overallAverage.png">
-          <!-- <h6 class="img-caption" style="text-align: center">overall team compatibility score average</h6> -->
-        </div>
-      </div>
-
-      <h5 style="padding-top: 24px"><strong>Lessons Learned</strong></h5>
-      <p class="text">Keeping track of all the students' information was the biggest problem. Given the many requirements, many participants chose to ignore the soft constraints (&#35; of overlapping schedule availability, &#35; of leaders per team, etc.) and focused their time on the hard constraints (# of students per team, student preferences, etc.) listed. It was a common trend that participants would eventually start to randomly place students together without any regard to the constraints given.</p>
-
-      <p class="text">Teammatic was a research project that served the basis for my friend Carolyn’s thesis. I wanted to help her not only because she was a great person to work with, but because I really empathized with the problem that was presented. Is there really anything worse than a group member who slacks off?<br><br>While designing Teammatic, we already accepted that perfect team formation is impossible. However, we learned that instructors are generally happy with auto-generated teams based on student compatibility, as long as we provided them with the freedom and flexibility to make changes when desired, i.e. a mixed-initiative interface.</p>
-
-      <h5 style="padding-top: 24px"><strong>Moving Forward</strong></h5>
-      <p class="text">The interface is a work in progress, but we are heading in the right direction based on positive user feedback (hooray!). Currently Teammatic only has the ability to generate teams; it has yet to become a fully working product. It would be ideal to incorporate the entire team formation process into Teammatic, from gathering student data, to forming teams, to post-course feedback. <br><br>For now, Teammatic is being used by a few involved professors, who will continue to give us insight into how we can improve the interface and how we might implement new, undiscovered features.
-      </p>
+      <p class="text">The realm of online shopping is always expanding and having certain, personalized information at our fingertips can better help us in finding the right clothes.</p>
     </div>
 
     <!-- Contact Section -->
