@@ -5,9 +5,12 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Alex Tran: Timekeeper</title>
-  <meta name="description" content="">
+  <title>The Portfolio of Alex Tran</title>
+  <meta name="description" content="Hello, I'm a design-centered human.">
   <meta name="author" content="">
+  <meta property="og:title" content="The Portfolio of Alex Tran" />
+  <meta property="og:description" content="Hello, I'm a design-centered human." />
+  <meta property="og:image" content="images/metaPNG.png" />
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -60,21 +63,32 @@
         </div>
       </div>
 
-      <h5 style="padding-bottom: 24px;"><strong>tl&semi;dr&colon;</strong> I was in charge of designing a team formation UI tool for instructors called Teammatic. It features a clear, intuitive system for efficiently creating teams given a series of customizable constraints, i.e. availability, leadership, gender distribution. </h5>
+      <h5 style="padding-bottom: 24px;"><strong>tl&semi;dr&colon;</strong> I worked to build a productivity app that creates an optimized schedule based on a user’s needs and tasks for the day.</h5>
     </div>
+
+    <hr style="border: 0; height: 0; border-top: 1px solid rgba(0, 0, 0, 0.1); border-bottom: 1px solid rgba(255, 255, 255, 0.3);">
 
     <!-- Problem Section -->
-    <div class="section-div">
+    <div class="section-div" style="padding-top: 36px">
       <h3 class="section-header">The Problem</h3>
-      <p class="text">Creating good teams is hard. We found this especially so in the education system; as an instructor, the goal is to formulate efficient teams as soon as possible in order to progress through the material in a timely manner. Our initial findings found that instructors either 1) spent too much time trying to initially assess their students’ skills &amp; qualities before organizing teams, or 2) randomly (or with little assessment) assigned teams that had varying levels of success.</p>
+      <p class="text">The time we can and want to work don’t always overlap, resulting in time being spent inefficiently. Trying to make a realistic schedule can be difficult and time-consuming. Calendar apps allow room for planning ahead, but do very little to focus on helping users complete tasks that day. Users know what they need to get done, but don’t always know the best way to get those things done. Time spent completing the actual tasks is instead devoted to planning the day and inputting task information. </p>
       <br>
-      <h5 style="padding-bottom: 24px; opacity: 0.75">We set out to create a tool that would make forming teams more effective and easy for instructors.</h5>
+      <h5 style="padding-bottom: 16px; opacity: 0.75">Based on initial data gathering, there were a few pain points that were identified&colon;
+        <ul>
+          <li>Users want information that’s specific to the current day.</li>
+          <li>Some apps provide too many options for customizing &amp; categorizing tasks. </li>
+          <li>Wishing for more guidance in task priority &amp; planning.</li>
+        </ul>
+      </h5>
     </div>
 
+    <hr style="border: 0; height: 0; border-top: 1px solid rgba(0, 0, 0, 0.1); border-bottom: 1px solid rgba(255, 255, 255, 0.3);">
+
     <!-- Process Section -->
-    <div class="section-div">
-      <h3 class="section-header">Our Process</h3>
-      <p class="text">Initial research went into trying to find existing tools that tried solving the problem of team formation. We found CATME (Comprehensive Assessment of Team Member Effectiveness) to be the only existing solution, which uses their Team-Maker tool to collect student information, and utilizes the data to assign teams according to a criteria specified by the instructor. However, user feedback has shown varying success within classrooms. Case study here.<br><br>Based on this and additional user interviews, our team established three design principles that would help guide our design decision throughout this process.</p>
+    <div class="section-div" style="padding-top: 36px">
+      <h3 class="section-header">A Solution</h3>
+      <p class="text">Timekeeper is built to help users become more efficient by eliminating the time spent making daily schedules. By observing phone + internet usage and when you most and least productive, Timekeeper learns and creates the most optimal schedule for you.</p>
+      <p class="text">We hoped to solve the problem of task input and task guidance/prioritization.</p>
       <br>
       <h5 style="padding-bottom: 16px; opacity: 0.75">We wanted to build a tool that would:
         <ul>
@@ -83,45 +97,26 @@
           <li><strong>be simple and easy</strong> for instructors to use</li>
         </ul>
       </h5>
-      <p class="text">The first thing we wanted to tackle was how instructors would actually form teams; we would focus on the onboarding process after. After a few paper-and-pen sketching sessions, we came up with a few ideas and drew them up as wireframes.</p>
-
-      <br><h3>image goes here</h3><br>
-
-      <p class="text">Quickly ideating and prototyping became key here. We wanted to find a balance between providing instructors with enough student information to make informed decisions while also having a large enough workspace to create/edit teams. Further data gathering helped us scrap the Student Quickview component in our initial 3-column design to  a final 2-column design that featured both a larger workspace and filtered Student Roster component (see image below).</p>
-
-      <br><h3>image goes here</h3><br>
-
-      <h5 style="padding-bottom: 16px; opacity: 0.75">The switch helped us address these issues:
-        <ul>
-          <li><strong>quickly form teams</strong> - indicate team size, input needed constraints, and voila&colon; Teammatic does the work</li>
-          <li><strong>provide instructors with insightful feedback</strong> - team compatibility &#37; present; action history to track most recent action</li>
-          <li><strong>be simple and easy</strong> - no confusing, unintuitive buttons or icons&semi; clear, even spacing between text and components</li>
-        </ul>
-      </h5>
     </div>
+
+    <hr style="border: 0; height: 0; border-top: 1px solid rgba(0, 0, 0, 0.1); border-bottom: 1px solid rgba(255, 255, 255, 0.3);">
 
     <!-- Solution Section -->
-    <div class="section-div">
-      <h3 class="section-header">Our Solution</h3>
-      <p class="text">Teammatic handles student availability, leadership attribute, gender, role distribution, and student preferences for possible teammates. Once the data is received, instructors will have the ability to choose constraints of how they want to create teams. The algorithm used for the team suggestions will account for these various constraints. After a suggested group of teams have been formed, the instructor will have the ability to modify these teams to their liking.</p>
+    <div class="section-div" style="padding-top: 36px">
+      <h3 class="section-header">Our Process</h3>
+      <p class="text">Storyboards emphasized the app’s overall goal of efficiency. Heuristic evaluations validated Timekeeper’s easy-to-navigate UI and allowed us to focus on a concise app flow&colon; onboarding, task input, calendar view.</p>
+
+      <p class="text">This IA diagram outlines the process a user would have in Timekeeper&colon;</p>
 
       <br><h3>image goes here</h3><br>
-
-      <p class="text">Student Roster (v0.3), (v0.7), (v1.0).<br>This is one of the UI components that was prototyped the most. We really tried to find a balance between information visibility and screen real-estate. Including a filter makes it easier for instructors to view the information they need at any given time.</p>
-
-      <br><h3>image goes here</h3><br>
-
-      <p class="text">Student Swap Process (v1.0).<br>We really wanted to give instructors the ability to swap students between teams, both manually and with suggestions (highlighted in green) from the interface. Doing so promotes the idea of a mixed-initiative interface: instructors can work within the given UI, but also have the flexibility to make changes where desired.</p>
-
-      <br><h3>image goes here</h3><br>
-
-      <p class="text">Constraint Modal (v0.3), (v0.6), (v1.0).<br>Apart from the minor UI changes, our research showed that instructors wanted to see all available constraints possible and choose accordingly with the least amount of interaction cost. Don’t mind the varying modal sizes…</p>
     </div>
 
+    <hr style="border: 0; height: 0; border-top: 1px solid rgba(0, 0, 0, 0.1); border-bottom: 1px solid rgba(255, 255, 255, 0.3);">
+
     <!-- Outcomes Section -->
-    <div class="section-div">
-      <h3 class="section-header">Outcomes</h3>
-      <p class="text">We conducted a study with 14 teaching assistants from various group-based courses, asking them to create teams with a set of constraint requirements, i.e. 4 students per team, one student per team, gender balance. As you can see from the results below, Teammatic outperformed our participants in both time and overall teammate compatibility.</p>
+    <div class="section-div" style="padding-top: 36px">
+      <h3 class="section-header">Timekeeper's Design</h3>
+      <p class="text">Timekeeper is designed to be simple. Users are presented with a simple navigation layout that focuses on current tasks and the schedule for the day — This is the bare minimum that allows users to get started immediately without having any roadblocks.</p>
 
       <br><h3>image goes here</h3><br>
 
