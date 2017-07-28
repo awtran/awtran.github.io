@@ -474,7 +474,8 @@ there.
 #project-title-secondary {
   font-size: 5.6rem;
   text-transform: lowercase;
-  letter-spacing: 2px;
+  letter-spacing: 0px;
+  font-style: normal;
 }
 
 a > #project-title:hover {
@@ -514,8 +515,16 @@ a > #project-title:hover {
   padding-right: 16px;
 }
 
-.project-border {
+.work-border {
   border: 1px solid #5E1AFF;
+}
+
+.project-border {
+  border: 1px solid #74E3B5;
+}
+
+.project-border-wip {
+  border: 1px solid rgba(44,44,44,0.5);
 }
 
 #grad-prim {
@@ -524,4 +533,20 @@ a > #project-title:hover {
   background: -o-linear-gradient(right, rgba(94,26,255, 0), rgba(94,26,255, 0.05)); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(right, rgba(94,26,255, 0), rgba(94,26,255, 0.05)); /* For Firefox 3.6 to 15 */
   background: linear-gradient(to right, rgba(94,26,255, 0), rgba(94,26,255, 0.05)w); /* Standard syntax */
+}
+
+#grad-second {
+  background: rgba(116,227,181, 0.3); /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, rgba(116, 227, 181, 0), rgba(116, 227, 181, 0.05)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, rgba(116, 227, 181, 0), rgba(116, 227, 181, 0.05)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, rgba(116, 227, 181, 0), rgba(116, 227, 181, 0.05)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, rgba(116, 227, 181, 0), rgba(116, 227, 181, 0.05)w); /* Standard syntax */
+}
+
+#grad-wip {
+  background: rgba(74,74,74, 0.3); /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, rgba(74,74,74, 0), rgba(74,74,74, 0.05)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, rgba(74,74,74, 0), rgba(74,74,74, 0.05)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, rgba(74,74,74, 0), rgba(74,74,74, 0.05)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, rgba(74,74,74, 0), rgba(74,74,74, 0.05)); /* Standard syntax */
 }
