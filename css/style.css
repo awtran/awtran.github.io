@@ -23,9 +23,45 @@ a:hover {
     transition: var(--transition);
 }
 
+.underline.twitter {
+	border-bottom: 4px solid rgba(29,161,242,0.6);
+}
+
+.underline.dribbble {
+	border-bottom: 4px solid rgba(234,76,137,0.6);
+}
+
+.underline.medium {
+	border-bottom: 4px solid rgba(2,184,117,0.6);
+}
+
 /* On hover, fill text with color */
 .underline:hover {
 	background-color: var(--highlight);
+	padding-top: 4px;
+
+	-webkit-transition: var(--transition);
+    transition: var(--transition);
+}
+
+.underline.twitter:hover {
+	background-color: rgba(29, 161, 242, 0.8);
+	padding-top: 4px;
+
+	-webkit-transition: var(--transition);
+    transition: var(--transition);
+}
+
+.underline.dribbble:hover {
+	background-color: rgba(234,76,137, 0.8);
+	padding-top: 4px;
+
+	-webkit-transition: var(--transition);
+    transition: var(--transition);
+}
+
+.underline.medium:hover {
+	background-color: rgba(2,184,117,0.8);
 	padding-top: 4px;
 
 	-webkit-transition: var(--transition);
@@ -38,7 +74,41 @@ a:hover {
 
 @media (min-width: 400px) {
 	.header {
-		margin-top: 4%;
+		margin-top: 12%;
 	}
 }
-
+@media (min-width: 550px) {
+	.header {
+		margin-top: 8%;
+	}
+	.row {
+		width: 100%;
+	}
+}
+/* Larger than tablet */
+@media (min-width: 750px) {
+	.header {
+		margin-top: 8%;
+	}
+	.row {
+		width: 85%;
+	}
+}
+/* Larger than desktop */
+@media (min-width: 1000px) {
+	.header {
+		margin-top: 8%;
+	}
+	.row {
+		width: 60%;
+	}
+}
+/* Larger than a large desktop */
+@media (min-width: 1280px) {
+	.header {
+		margin-top: 8%;
+	}
+	.row {
+		width: 50%;
+	}
+}
