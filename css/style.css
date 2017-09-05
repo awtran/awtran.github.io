@@ -31,3 +31,14 @@ a:hover {
 	-webkit-transition: var(--transition);
     transition: var(--transition);
 }
+
+.header {
+	margin-top: 16%;
+}
+
+@media (min-width: 400px) {
+	.header {
+		margin-top: 4%;
+	}
+}
+
