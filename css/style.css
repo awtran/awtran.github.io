@@ -1,0 +1,33 @@
+/* Declaring root for CSS variables */
+:root {
+	--highlight: #b3b2eb;
+	--transition: 0.2s;
+	--default-color: #222;
+}
+
+a:hover {
+	text-decoration: none;
+	color: var(--default-color);
+}
+
+.underline {
+	color: var(--default-color);
+    display: inline-block;
+    line-height: 0.6em;
+    position: relative;
+    border-bottom: 4px solid var(--highlight);
+    padding-bottom: 0px;
+    text-decoration: none;
+
+    -webkit-transition: var(--transition);
+    transition: var(--transition);
+}
+
+/* On hover, fill text with color */
+.underline:hover {
+	background-color: var(--highlight);
+	padding-top: 4px;
+
+	-webkit-transition: var(--transition);
+    transition: var(--transition);
+}
