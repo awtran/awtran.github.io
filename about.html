@@ -6,6 +6,20 @@
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.0/css/tachyons.min.css"/>
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,700|Work+Sans:300,400,600,700,900" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+      $(window).scroll(function() {
+          var nav = $('header');
+          var top = 75;
+          if ($(window).scrollTop() >= top) {
+
+              nav.addClass('shadow bg-almost-white');
+
+          } else {
+              nav.removeClass('shadow bg-almost-white');
+          }
+      });
+    </script>
   </head>
   <body>
     <!-- HEADER NAV -->

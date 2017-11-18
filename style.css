@@ -37,3 +37,7 @@ html {
     -webkit-box-sizing:border-box;
     box-sizing:border-box;
 }
+
+header {
+  transition: all 0.5s ease;
+}
