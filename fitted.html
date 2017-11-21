@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.0/css/tachyons.min.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,700|Work+Sans:300,400,600,700,900" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+      $(window).scroll(function() {
+          var nav = $('header');
+          var top = 75;
+          if ($(window).scrollTop() >= top) {
+
+              nav.addClass('shadow bg-almost-white');
+
+          } else {
+              nav.removeClass('shadow bg-almost-white');
+          }
+      });
+    </script>
+  </head>
+  <body>
+    <!-- HEADER NAV -->
+    <header class="fixed w-100 ph3 pv3 pv4-ns ph4-m ph5-l zindex worksans">
+      <nav class="f5-ns f6">
+        <div class="fl">
+          <a class="link hover-orange black dib mr3 ttu fw6" href="index.html" title="Home">Alex Tran</a>
+        </div>
+        <div class="fr">
+          <a class="link hover-orange black dib mr3" href="about.html" title="Hi, it me &#128075;">About</a>
+          <a class="link hover-orange black dib mr3" href="#" title="Will open Mail or Outlook &#128231;">Contact</a>
+          <a class="link hover-orange black dib" href="AlexWTran_Resume.pdf" target="_blank" title="Peep my resume">Resume</a>
+        </div>
+      </nav>
+    </header>
+
+    <section class="worksans dt w-100 ph4-ns pv4 pv6-ns ph0-l center">
+      <div class="cover bg-left bg-center-l">
+        <!-- HERO LANDING -->
+        <div class="tc pa4 sourceserif">
+          <h1 class="f2 f1-l fw9 mb0 lh-title">Fitted</h1>
+          <h2 class="fw1 f3 mt3 mw7 center lh-copy">Mobile app to find the right-sized clothing based on your preferences.</h2>
+        </div>
+      </div>
+    </section>
+
+    <!-- DIVIDER -->
+    <div class="mv1 mv3-ns db w-third center">
+      <div class="bt tc db b--moon-gray">
+      </div>
+    </div>
+
+    <!-- PROJECT OVERVIEW -->
+    <section class="cf w-100 pv3 pv4-ns ph3 ph4-m ph5-l mw8 center">
+      <!-- PROJECT OVERVIEW -->
+      <article class="fl w-100 w-50-m w-60-ns pa3 pa3-ns">
+        <span class="ph2 ph0-ns pb3 link db">
+          <h3 class="f6 f5-ns fw4 mt3 worksans lh-copy black-60"><span class="fw6 black-90">What did you set out to achieve with this project?</span></span><br/>To create an app that provides users with personalized sizing recommendations. Users can browse styles from their favorite brands and be given accurate sizing suggestions tailored to their preferences and/or needs.</h3>
+          <h3 class="f6 f5-ns fw4 mt3 worksans lh-copy black-60"><span class="fw6 black-90">What was challenges did you have designing this?</span><br/>Designing for trust is always tricky, especially when it comes to clothing. Figuring that out and acting as a bridge between retailers and consumers was definitely a challenge when it came to app flow.</h3>
+          <h3 class="f6 f5-ns fw4 mt3 worksans lh-copy black-60"><span class="fw6 black-90">What are the next steps?</span><br/>Personalized styling recommendations and C2C marketplace capability for renting and selling unused clothing. Providing these features will allow for a better in-app experience, and I hope the data we would collect would help validate these decisions.</h3>
+        </span>
+      </article>
+
+      <!-- PROJECT DETAILS -->
+      <article class="fl w-100 w-50-m w-40-ns pa3 pa3-ns">
+        <span class="ph2 ph0-ns pb3 link db">
+          <div>
+            <h3 class="f5 f5-ns ttu mb0 black-90 sourceserif">Platform</h3>
+            <h3 class="f6 f5-ns fw4 mt2 black-60 worksans">Mobile</h3>
+          </div>
+          <div>
+            <h3 class="f5 f5-ns ttu mb0 black-90 sourceserif">Role</h3>
+            <h3 class="f6 f5-ns fw4 mt2 black-60 worksans">UX Designer</h3>
+          </div>
+          <div>
+            <h3 class="f5 f5-ns ttu mt4 mb0 black-90 sourceserif">Timeline</h3>
+            <h3 class="f6 f5-ns fw4 mt2 black-60 worksans">3 months</h3>
+          </div>
+          <div>
+            <h3 class="f5 f5-ns ttu mt4 mb0 black-90 sourceserif">Tools Used</h3>
+            <h3 class="f6 f5-ns fw4 mt2 black-60 worksans">Illustrator, Invision</h3>
+          </div>
+          <div>
+            <a class="f6 fw6 ttu mt4 mb0 pv2 ph3 bg-white dib shadow no-underline mid-gray worksans link ba b--black-05 br2 hover-white bg-animate hover-bg-green" href="#0" target="_blank">Read Case Study</a>
+          </div>
+        </span>
+      </article>
+    </section>
+
+    <!-- DIVIDER -->
+    <div class="mv1 mv3-ns db w-third center">
+      <div class="bt tc db b--moon-gray">
+      </div>
+    </div>
+
+    <section class="fullest-container">
+      <img class="w-100" src="images/fitted-main.png"/>
+    </section>
+
+    <!-- THE PROBLEM -->
+    <section class="cf w-100 ph3 ph4-m ph5-l mw8 center">
+      <article class="fl w-100-ns">
+        <span class="ph2 ph0-ns pb3 db">
+          <h3 class="f4 f3-ns mb0 black-90 sourceserif">The Problem</h3>
+          <h3 class="f6 f5-ns fw4 mt2 black-60 worksans lh-copy">The idea came from an issue we each saw every time we bought clothes online. It seemed more often than not the ease of online shopping was overshadowed by the challenge of finding the right size. It’s hard to know what fits best when there is so much variation in sizing across different brands. People could choose to estimate their size, and then deal with returning clothes if they do not fit. Or, people could spend hours in fitting room. But who really wants to be spending their time doing that?</h3>
+        </span>
+      </article>
+    </section>
+
+    <!-- A SOLUTION -->
+    <section class="cf w-100 ph3 ph4-m ph5-l mw8 center">
+      <article class="fl w-100-ns">
+        <span class="ph2 ph0-ns db">
+          <h3 class="f4 f3-ns mb0 black-90 sourceserif">A Solution</h3>
+          <h3 class="f6 f5-ns fw4 mt2 black-60 worksans lh-copy">Fitted aims to give you the confidence in finding the right-sized clothes with accurate body measurements in order to provide you with personalized sizing recommendations. Users can browse styles from their favorite brands and be given accurate sizing suggestions tailored to their preferences and/or needs.</h3>
+        </span>
+
+        <div class="bl b--orange bw2 pl2 o-70 mv4-ns">
+          <h3 class="f5 f4-ns fw3 mb0 orange sourceserif lh-copy">Poor organization of space & limited guidance led to confused users, which led to low retention rate and a lacking experience.</h3>
+        </div>
+
+        <section class="fullest-container">
+          <img class="w-100 br2 shadow" src="images/teamiteration.png"/>
+        </section>
+        <span class="ph2 ph0-ns pb3 link db tc">
+          <h3 class="f6 fw4 mt2 black-60 worksans">Iterations: transitioning from 3-columns to 2-columns</h3>
+        </span>
+      </article>
+    </section>
+
+    <!-- OUR PROCESS -->
+    <section class="cf w-100 ph3 ph4-m ph5-l mw8 center">
+      <article class="fl w-100-ns">
+        <span class="ph2 ph0-ns db">
+          <h3 class="f4 f3-ns mb0 black-90 sourceserif">Our Process</h3>
+          <h3 class="f6 f5-ns fw4 mt2 black-60 worksans lh-copy">This IA diagram outlines the different sections a user can take through the Fitted experience:</h3>
+        </span>
+      </article>
+
+      <!-- IA Diagram Image -->
+      <section class="fullest-container">
+        <img class="w-100 br2 shadow" src="images/fitted-ia.png"/>
+      </section>
+
+      <!-- IA Descriptions -->
+      <article class="fl w-100-ns">
+        <span class="ph2 ph0-ns pb3-ns db">
+          <h3 class="f6 f5-ns fw4 mt3 worksans lh-copy black-60"><span class="fw6 black-90">Homepage</span></span><br/>Browse products based on either brand recommendations by the app or explore current fashion trends. Promotes discoverability and aimed to maintain user attention.</h3>
+
+          <h3 class="f6 f5-ns fw4 mt3 worksans lh-copy black-60"><span class="fw6 black-90">Liked Products</span></span><br/>The Liked Products section allows users to look back at items they were interested in, but perhaps did not intend to purchase at the moment they discovered it.</h3>
+
+          <h3 class="f6 f5-ns fw4 mt3 worksans lh-copy black-60"><span class="fw6 black-90">Search</span></span><br/>Specific browsing for items based on brand or design type (shirts, pants, etc.). Includes navigation into Product View, which provides users with information on the selected item such as personalized fitting style and user reviews.</h3>
+
+          <h3 class="f6 f5-ns fw4 mt3 worksans lh-copy black-60"><span class="fw6 black-90">Shopping Cart</span></span><br/>As with any app that provides an e-commerce experience, a shopping cart is available for users to keep track of to-be purchased items. IA follows that of a standard online-shopping format.</h3>
+
+          <h3 class="f6 f5-ns fw4 mt3 worksans lh-copy black-60"><span class="fw6 black-90">Profile</span></span><br/>Body preference settings are found here. Users can edit these preferences based on their needs and the app will respond accordingly, i.e. automatically filter results to be within user sizing parameters.</h3>
+        </span>
+      </article>
+    </section>
+
+    <section class="cf w-100 ph3 ph4-m ph5-l mw8 center">
+      <article class="fl w-100-ns">
+        <span class="ph2 ph0-ns db">
+          <h3 class="f4 f3-ns mb0 black-90 sourceserif">Design Details</h3>
+          <h3 class="f6 f5-ns fw4 mt2 black-60 worksans lh-copy">Fitted provides personalized recommendations across all products. For each product view, the user gets an indication of how well the item is going to fit on their body (based on the preferences they provide).</h3>
+        </span>
+      </article>
+
+      <section class="fullest-container">
+        <img class="w-100 br2 shadow" src="images/teamiteration.png"/>
+      </section>
+    </section>
+
+    <section class="cf w-100 ph3 ph4-m ph5-l mw8 center">
+      <!-- SIZING RECOMMENDATIONS -->
+      <article class="fl w-100-ns">
+        <span class="ph2 ph0-ns pb3-ns db">
+          <h3 class="f6 f5-ns fw4 mt3 worksans lh-copy black-60"><span class="fw6 black-90">Sizing Recommendations</span></span><br/>Each item the user views will have a percentage that informs them of how accurate the fit will be based on their size. The option can be changed, giving users freedom and flexibility to choose how well the item should fit them. Reviews also further inform users because we understand the importance of having constant feedback from real-world experiences.</h3>
+        </span>
+      </article>
+
+      <section class="fullest-container">
+        <img class="w-100 br2 shadow" src="images/swap-2.png"/>
+      </section>
+
+      <!-- BODY PREFERENCES -->
+      <article class="fl w-100-ns">
+        <span class="ph2 ph0-ns pb3-ns db">
+          <h3 class="f6 f5-ns fw4 mt3 worksans lh-copy black-60">
+            <span class="fw6 black-90">Customizing Body Preferences</span>
+            <br/>
+            This is the bread and butter of Fitted. Users have the freedom to adjust their body profile based on their own preferences. Whether users want an overall tighter fit in the clothes they buy, or only in the torso length, they have the ability to indicate that and Fitted will filter and tailor their results accordingly.
+          </h3>
+        </span>
+      </article>
+
+      <section class="fullest-container">
+        <img class="w-100 br2 shadow" src="images/teamconstraint.png"/>
+      </section>
+
+      <span class="ph2 ph0-ns pb3 link db tc">
+        <h3 class="f6 fw4 mt2 black-60 worksans">Don't mind the varying modal sizes...</h3>
+      </span>
+    </section>
+
+    <section class="cf w-100 ph3 ph4-m ph5-l mw8 center">
+      <!-- TAKEAWAYS -->
+      <article class="fl w-100-ns">
+        <span class="ph2 ph0-ns db">
+          <h3 class="f4 f3-ns mb0 black-90 sourceserif">Takeaways</h3>
+          <h3 class="f6 f5-ns fw4 mt2 black-60 worksans lh-copy">
+            The idea came from an issue we each saw every time we bought clothes online. It seemed more often than not the ease of online shopping was overshadowed by the challenge of finding the right size. It’s hard to know what fits best when there is so much variation in sizing across different brands.
+            <br/><br/>
+            People could choose to estimate their size, and then deal with returning clothes if they do not fit. Or, people could spend hours in fitting room. But who really wants to be spending their time doing that?</h3>
+        </span>
+      </article>
+    </section>
+
+
+    <!-- FOOTER NAVIGATION -->
+    <section class="cf pv2 w-100 ph3 pv3 pv4-ns ph4-m ph5-l mw8 center">
+      <article class="w-100 ph3 ph2-ns">
+        <span class="fl ph2 ph0-ns db">
+          <a class="f5 fw6 ttu mt1 mb0 pv2 ph3 bg-white dib shadow no-underline black-90 worksans link ba b--black-05 br2 ttu hover-white bg-animate hover-bg-orange" href="teammatic.html" title="Teammatic">&#128072; Back</a>
+        </span>
+        <span class="fr ph2 ph0-ns db">
+          <a class="f5 fw6 ttu mt1 mb0 pv2 ph3 bg-white dib shadow no-underline black-90 worksans link ba b--black-05 br2 ttu hover-white bg-animate hover-bg-orange" href="thinkabit.html" title="Thinkabit Lab">Next &#128073;</a>
+        </span>
+      </article>
+    </section>
+
+    <!-- DIVIDER -->
+    <div class="mv1 mv3-ns db w-100 center">
+      <div class="bt tc db b--moon-gray">
+      </div>
+    </div>
+
+    <!-- FOOTER NAV -->
+    <footer class="pv4 ph3 ph5-ns tc">
+      <a class="link dib dim mr4" href="mailto:awtran16@gmail.com?Subject=Let's%20talk" target="_top" title="Will open Mail or Outlook &#128231;">
+      <img src="https://icon.now.sh/email/22/000000" alt="email">
+      </a>
+      <a class="link dib dim mr4" href="https://twitter.com/wolfinthecity_" target="_blank" title="Don't @ me">
+        <img src="https://icon.now.sh/twitter/22/000000" alt="Twitter">
+      </a>
+      <a class="link dib dim mr4" href="https://medium.com/@alextrantheeman" target="_blank" title="I write stuff">
+        <img src="https://icon.now.sh/medium/22/000000" alt="medium">
+      </a>
+      <a class="link dib dim" href="https://dribbble.com/awtran" target="_blank" title="Hit that like button!">
+        <img src="https://icon.now.sh/dribbble/22/000000" alt="dribbble">
+      </a>
+      <small class="mt4 f6 db tc worksans">Alex Tran | Built with Tachyons</small>
+    </footer>
+  </body>
+</html>
